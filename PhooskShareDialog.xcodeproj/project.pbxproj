@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CA35647D65EF51EB95078C7 /* Pods_PhooskShareDialog_PhooskShareDialogUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1E6F180275BEFC7A56E7FB1 /* Pods_PhooskShareDialog_PhooskShareDialogUITests.framework */; };
+		AA34CBB95289D403F654D04F /* Pods_PhooskShareDialogTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958F9D99238E1437E1871BB0 /* Pods_PhooskShareDialogTests.framework */; };
+		E2BD9F4D24B847010044C68A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BD9F4C24B847010044C68A /* AppDelegate.m */; };
+		E2BD9F5024B847010044C68A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BD9F4F24B847010044C68A /* SceneDelegate.m */; };
+		E2BD9F5324B847010044C68A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BD9F5224B847010044C68A /* ViewController.m */; };
+		E2BD9F5624B847010044C68A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2BD9F5424B847010044C68A /* Main.storyboard */; };
+		E2BD9F5824B847020044C68A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2BD9F5724B847020044C68A /* Assets.xcassets */; };
+		E2BD9F5B24B847020044C68A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2BD9F5924B847020044C68A /* LaunchScreen.storyboard */; };
+		E2BD9F5E24B847020044C68A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BD9F5D24B847020044C68A /* main.m */; };
+		E2BD9F6824B847020044C68A /* PhooskShareDialogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BD9F6724B847020044C68A /* PhooskShareDialogTests.m */; };
+		E2BD9F7324B847020044C68A /* PhooskShareDialogUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BD9F7224B847020044C68A /* PhooskShareDialogUITests.m */; };
+		F1DE2130F137B5F23B3BC7E8 /* Pods_PhooskShareDialog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D4E6CA20D9F5D437FBD212 /* Pods_PhooskShareDialog.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2BD9F6424B847020044C68A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2BD9F4024B847010044C68A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2BD9F4724B847010044C68A;
+			remoteInfo = PhooskShareDialog;
+		};
+		E2BD9F6F24B847020044C68A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2BD9F4024B847010044C68A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2BD9F4724B847010044C68A;
+			remoteInfo = PhooskShareDialog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16B71FD54C2CDC95398F0805 /* Pods-PhooskShareDialog-PhooskShareDialogUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhooskShareDialog-PhooskShareDialogUITests.release.xcconfig"; path = "Target Support Files/Pods-PhooskShareDialog-PhooskShareDialogUITests/Pods-PhooskShareDialog-PhooskShareDialogUITests.release.xcconfig"; sourceTree = "<group>"; };
+		900164D0F9272DA1F939F1AD /* Pods-PhooskShareDialog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhooskShareDialog.release.xcconfig"; path = "Target Support Files/Pods-PhooskShareDialog/Pods-PhooskShareDialog.release.xcconfig"; sourceTree = "<group>"; };
+		94CC894B86A38CFC18B70460 /* Pods-PhooskShareDialogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhooskShareDialogTests.release.xcconfig"; path = "Target Support Files/Pods-PhooskShareDialogTests/Pods-PhooskShareDialogTests.release.xcconfig"; sourceTree = "<group>"; };
+		958F9D99238E1437E1871BB0 /* Pods_PhooskShareDialogTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhooskShareDialogTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A5ECE00C1932C152AC1606 /* Pods-PhooskShareDialog-PhooskShareDialogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhooskShareDialog-PhooskShareDialogUITests.debug.xcconfig"; path = "Target Support Files/Pods-PhooskShareDialog-PhooskShareDialogUITests/Pods-PhooskShareDialog-PhooskShareDialogUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B85D5671C6FB9AAF5573DDDA /* Pods-PhooskShareDialog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhooskShareDialog.debug.xcconfig"; path = "Target Support Files/Pods-PhooskShareDialog/Pods-PhooskShareDialog.debug.xcconfig"; sourceTree = "<group>"; };
+		C0D4E6CA20D9F5D437FBD212 /* Pods_PhooskShareDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhooskShareDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1E6F180275BEFC7A56E7FB1 /* Pods_PhooskShareDialog_PhooskShareDialogUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhooskShareDialog_PhooskShareDialogUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEAFC9E5D5B7B5B327D0679C /* Pods-PhooskShareDialogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhooskShareDialogTests.debug.xcconfig"; path = "Target Support Files/Pods-PhooskShareDialogTests/Pods-PhooskShareDialogTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2BD9F4824B847010044C68A /* PhooskShareDialog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhooskShareDialog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2BD9F4B24B847010044C68A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E2BD9F4C24B847010044C68A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E2BD9F4E24B847010044C68A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		E2BD9F4F24B847010044C68A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		E2BD9F5124B847010044C68A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E2BD9F5224B847010044C68A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E2BD9F5524B847010044C68A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2BD9F5724B847020044C68A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2BD9F5A24B847020044C68A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2BD9F5C24B847020044C68A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2BD9F5D24B847020044C68A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2BD9F6324B847020044C68A /* PhooskShareDialogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhooskShareDialogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2BD9F6724B847020044C68A /* PhooskShareDialogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhooskShareDialogTests.m; sourceTree = "<group>"; };
+		E2BD9F6924B847020044C68A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2BD9F6E24B847020044C68A /* PhooskShareDialogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhooskShareDialogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2BD9F7224B847020044C68A /* PhooskShareDialogUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhooskShareDialogUITests.m; sourceTree = "<group>"; };
+		E2BD9F7424B847020044C68A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2BD9F4524B847010044C68A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1DE2130F137B5F23B3BC7E8 /* Pods_PhooskShareDialog.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2BD9F6024B847020044C68A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA34CBB95289D403F654D04F /* Pods_PhooskShareDialogTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2BD9F6B24B847020044C68A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA35647D65EF51EB95078C7 /* Pods_PhooskShareDialog_PhooskShareDialogUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E94826D0E0BD55604C3DF00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B85D5671C6FB9AAF5573DDDA /* Pods-PhooskShareDialog.debug.xcconfig */,
+				900164D0F9272DA1F939F1AD /* Pods-PhooskShareDialog.release.xcconfig */,
+				B5A5ECE00C1932C152AC1606 /* Pods-PhooskShareDialog-PhooskShareDialogUITests.debug.xcconfig */,
+				16B71FD54C2CDC95398F0805 /* Pods-PhooskShareDialog-PhooskShareDialogUITests.release.xcconfig */,
+				DEAFC9E5D5B7B5B327D0679C /* Pods-PhooskShareDialogTests.debug.xcconfig */,
+				94CC894B86A38CFC18B70460 /* Pods-PhooskShareDialogTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3F9DD8AD60E8F6A8A3A0BD84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0D4E6CA20D9F5D437FBD212 /* Pods_PhooskShareDialog.framework */,
+				D1E6F180275BEFC7A56E7FB1 /* Pods_PhooskShareDialog_PhooskShareDialogUITests.framework */,
+				958F9D99238E1437E1871BB0 /* Pods_PhooskShareDialogTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2BD9F3F24B847010044C68A = {
+			isa = PBXGroup;
+			children = (
+				E2BD9F4A24B847010044C68A /* PhooskShareDialog */,
+				E2BD9F6624B847020044C68A /* PhooskShareDialogTests */,
+				E2BD9F7124B847020044C68A /* PhooskShareDialogUITests */,
+				E2BD9F4924B847010044C68A /* Products */,
+				3E94826D0E0BD55604C3DF00 /* Pods */,
+				3F9DD8AD60E8F6A8A3A0BD84 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E2BD9F4924B847010044C68A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2BD9F4824B847010044C68A /* PhooskShareDialog.app */,
+				E2BD9F6324B847020044C68A /* PhooskShareDialogTests.xctest */,
+				E2BD9F6E24B847020044C68A /* PhooskShareDialogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2BD9F4A24B847010044C68A /* PhooskShareDialog */ = {
+			isa = PBXGroup;
+			children = (
+				E2BD9F4B24B847010044C68A /* AppDelegate.h */,
+				E2BD9F4C24B847010044C68A /* AppDelegate.m */,
+				E2BD9F4E24B847010044C68A /* SceneDelegate.h */,
+				E2BD9F4F24B847010044C68A /* SceneDelegate.m */,
+				E2BD9F5124B847010044C68A /* ViewController.h */,
+				E2BD9F5224B847010044C68A /* ViewController.m */,
+				E2BD9F5424B847010044C68A /* Main.storyboard */,
+				E2BD9F5724B847020044C68A /* Assets.xcassets */,
+				E2BD9F5924B847020044C68A /* LaunchScreen.storyboard */,
+				E2BD9F5C24B847020044C68A /* Info.plist */,
+				E2BD9F5D24B847020044C68A /* main.m */,
+			);
+			path = PhooskShareDialog;
+			sourceTree = "<group>";
+		};
+		E2BD9F6624B847020044C68A /* PhooskShareDialogTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2BD9F6724B847020044C68A /* PhooskShareDialogTests.m */,
+				E2BD9F6924B847020044C68A /* Info.plist */,
+			);
+			path = PhooskShareDialogTests;
+			sourceTree = "<group>";
+		};
+		E2BD9F7124B847020044C68A /* PhooskShareDialogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2BD9F7224B847020044C68A /* PhooskShareDialogUITests.m */,
+				E2BD9F7424B847020044C68A /* Info.plist */,
+			);
+			path = PhooskShareDialogUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2BD9F4724B847010044C68A /* PhooskShareDialog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2BD9F7724B847020044C68A /* Build configuration list for PBXNativeTarget "PhooskShareDialog" */;
+			buildPhases = (
+				E5EC302BC506516762F93962 /* [CP] Check Pods Manifest.lock */,
+				E2BD9F4424B847010044C68A /* Sources */,
+				E2BD9F4524B847010044C68A /* Frameworks */,
+				E2BD9F4624B847010044C68A /* Resources */,
+				F6144B56E9D83BE6A3AFB32E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhooskShareDialog;
+			productName = PhooskShareDialog;
+			productReference = E2BD9F4824B847010044C68A /* PhooskShareDialog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2BD9F6224B847020044C68A /* PhooskShareDialogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2BD9F7A24B847020044C68A /* Build configuration list for PBXNativeTarget "PhooskShareDialogTests" */;
+			buildPhases = (
+				353CD6E26D64AEA76EAB9EF3 /* [CP] Check Pods Manifest.lock */,
+				E2BD9F5F24B847020044C68A /* Sources */,
+				E2BD9F6024B847020044C68A /* Frameworks */,
+				E2BD9F6124B847020044C68A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2BD9F6524B847020044C68A /* PBXTargetDependency */,
+			);
+			name = PhooskShareDialogTests;
+			productName = PhooskShareDialogTests;
+			productReference = E2BD9F6324B847020044C68A /* PhooskShareDialogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2BD9F6D24B847020044C68A /* PhooskShareDialogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2BD9F7D24B847020044C68A /* Build configuration list for PBXNativeTarget "PhooskShareDialogUITests" */;
+			buildPhases = (
+				B404B385C600E6B18DE51CDD /* [CP] Check Pods Manifest.lock */,
+				E2BD9F6A24B847020044C68A /* Sources */,
+				E2BD9F6B24B847020044C68A /* Frameworks */,
+				E2BD9F6C24B847020044C68A /* Resources */,
+				EA1859D13078BE15315B9ED8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2BD9F7024B847020044C68A /* PBXTargetDependency */,
+			);
+			name = PhooskShareDialogUITests;
+			productName = PhooskShareDialogUITests;
+			productReference = E2BD9F6E24B847020044C68A /* PhooskShareDialogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2BD9F4024B847010044C68A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = phoosk;
+				TargetAttributes = {
+					E2BD9F4724B847010044C68A = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					E2BD9F6224B847020044C68A = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = E2BD9F4724B847010044C68A;
+					};
+					E2BD9F6D24B847020044C68A = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = E2BD9F4724B847010044C68A;
+					};
+				};
+			};
+			buildConfigurationList = E2BD9F4324B847010044C68A /* Build configuration list for PBXProject "PhooskShareDialog" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2BD9F3F24B847010044C68A;
+			productRefGroup = E2BD9F4924B847010044C68A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2BD9F4724B847010044C68A /* PhooskShareDialog */,
+				E2BD9F6224B847020044C68A /* PhooskShareDialogTests */,
+				E2BD9F6D24B847020044C68A /* PhooskShareDialogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2BD9F4624B847010044C68A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2BD9F5B24B847020044C68A /* LaunchScreen.storyboard in Resources */,
+				E2BD9F5824B847020044C68A /* Assets.xcassets in Resources */,
+				E2BD9F5624B847010044C68A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2BD9F6124B847020044C68A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2BD9F6C24B847020044C68A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		353CD6E26D64AEA76EAB9EF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhooskShareDialogTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B404B385C600E6B18DE51CDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhooskShareDialog-PhooskShareDialogUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5EC302BC506516762F93962 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhooskShareDialog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA1859D13078BE15315B9ED8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhooskShareDialog-PhooskShareDialogUITests/Pods-PhooskShareDialog-PhooskShareDialogUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhooskShareDialog-PhooskShareDialogUITests/Pods-PhooskShareDialog-PhooskShareDialogUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhooskShareDialog-PhooskShareDialogUITests/Pods-PhooskShareDialog-PhooskShareDialogUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6144B56E9D83BE6A3AFB32E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhooskShareDialog/Pods-PhooskShareDialog-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhooskShareDialog/Pods-PhooskShareDialog-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhooskShareDialog/Pods-PhooskShareDialog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2BD9F4424B847010044C68A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2BD9F5324B847010044C68A /* ViewController.m in Sources */,
+				E2BD9F4D24B847010044C68A /* AppDelegate.m in Sources */,
+				E2BD9F5E24B847020044C68A /* main.m in Sources */,
+				E2BD9F5024B847010044C68A /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2BD9F5F24B847020044C68A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2BD9F6824B847020044C68A /* PhooskShareDialogTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2BD9F6A24B847020044C68A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2BD9F7324B847020044C68A /* PhooskShareDialogUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2BD9F6524B847020044C68A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2BD9F4724B847010044C68A /* PhooskShareDialog */;
+			targetProxy = E2BD9F6424B847020044C68A /* PBXContainerItemProxy */;
+		};
+		E2BD9F7024B847020044C68A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2BD9F4724B847010044C68A /* PhooskShareDialog */;
+			targetProxy = E2BD9F6F24B847020044C68A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2BD9F5424B847010044C68A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2BD9F5524B847010044C68A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2BD9F5924B847020044C68A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2BD9F5A24B847020044C68A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2BD9F7524B847020044C68A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E2BD9F7624B847020044C68A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2BD9F7824B847020044C68A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B85D5671C6FB9AAF5573DDDA /* Pods-PhooskShareDialog.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PXCLU9FKK5;
+				INFOPLIST_FILE = PhooskShareDialog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.phoosk.phoosk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E2BD9F7924B847020044C68A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 900164D0F9272DA1F939F1AD /* Pods-PhooskShareDialog.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PXCLU9FKK5;
+				INFOPLIST_FILE = PhooskShareDialog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.phoosk.phoosk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		E2BD9F7B24B847020044C68A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEAFC9E5D5B7B5B327D0679C /* Pods-PhooskShareDialogTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PXCLU9FKK5;
+				INFOPLIST_FILE = PhooskShareDialogTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.phoosk.PhooskShareDialogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhooskShareDialog.app/PhooskShareDialog";
+			};
+			name = Debug;
+		};
+		E2BD9F7C24B847020044C68A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94CC894B86A38CFC18B70460 /* Pods-PhooskShareDialogTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PXCLU9FKK5;
+				INFOPLIST_FILE = PhooskShareDialogTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.phoosk.PhooskShareDialogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhooskShareDialog.app/PhooskShareDialog";
+			};
+			name = Release;
+		};
+		E2BD9F7E24B847020044C68A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5A5ECE00C1932C152AC1606 /* Pods-PhooskShareDialog-PhooskShareDialogUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PXCLU9FKK5;
+				INFOPLIST_FILE = PhooskShareDialogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.phoosk.PhooskShareDialogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhooskShareDialog;
+			};
+			name = Debug;
+		};
+		E2BD9F7F24B847020044C68A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16B71FD54C2CDC95398F0805 /* Pods-PhooskShareDialog-PhooskShareDialogUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PXCLU9FKK5;
+				INFOPLIST_FILE = PhooskShareDialogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.phoosk.PhooskShareDialogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhooskShareDialog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2BD9F4324B847010044C68A /* Build configuration list for PBXProject "PhooskShareDialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BD9F7524B847020044C68A /* Debug */,
+				E2BD9F7624B847020044C68A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2BD9F7724B847020044C68A /* Build configuration list for PBXNativeTarget "PhooskShareDialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BD9F7824B847020044C68A /* Debug */,
+				E2BD9F7924B847020044C68A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2BD9F7A24B847020044C68A /* Build configuration list for PBXNativeTarget "PhooskShareDialogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BD9F7B24B847020044C68A /* Debug */,
+				E2BD9F7C24B847020044C68A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2BD9F7D24B847020044C68A /* Build configuration list for PBXNativeTarget "PhooskShareDialogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BD9F7E24B847020044C68A /* Debug */,
+				E2BD9F7F24B847020044C68A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2BD9F4024B847010044C68A /* Project object */;
+}
