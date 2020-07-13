@@ -28,11 +28,13 @@
     FBSDKSharePhotoContent *content = [[FBSDKSharePhotoContent alloc] init];
     content.photos = @[photo];
     
-    FBSDKShareDialog *dialog = [[FBSDKShareDialog alloc] init];
-    dialog.shareContent = content;
-    dialog.fromViewController = self;
-    dialog.delegate = self;
+    FBSDKMessageDialog *dialog = [FBSDKMessageDialog dialogWithContent:content delegate:self];
     [dialog show];
+//    FBSDKShareDialog *dialog = [[FBSDKShareDialog alloc] init];
+//    dialog.shareContent = content;
+//    dialog.fromViewController = self;
+//    dialog.delegate = self;
+//    [dialog show];
 }
 
 #pragma mark - FBSDKSharingDelegate
